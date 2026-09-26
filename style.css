@@ -1,0 +1,33 @@
+:root {
+  --paper: #e7dabb;
+  --paper-deep: #d9c9a3;
+  --ink: #332b26;
+  --ink-soft: #6b5f55;
+  --vermilion: #b23a2a;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", Georgia, serif;
+  line-height: 1.85;
+  font-size: 16px;
+}
+main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+header { margin-bottom: 40px; }
+.kicker { margin: 0; font-size: 12px; letter-spacing: .2em; color: var(--ink-soft); }
+h1 { margin: 4px 0 0; font-size: 34px; font-weight: 500; letter-spacing: .06em; }
+.sub { margin: 4px 0 0; font-size: 18px; }
+h2 { margin: 40px 0 8px; font-size: 20px; font-weight: 500; border-bottom: 1px solid var(--paper-deep); padding-bottom: 6px; }
+h3 { margin: 24px 0 4px; font-size: 16px; font-weight: 600; }
+h2 .en, .en { color: var(--ink-soft); font-size: .92em; }
+h2 .en { font-weight: 400; margin-left: .5em; }
+p { margin: 0 0 12px; }
+a { color: var(--vermilion); text-decoration: none; border-bottom: 1px solid rgba(178,58,42,.35); }
+a:hover { border-bottom-color: var(--vermilion); }
+.contact { font-size: 18px; }
+footer { margin-top: 56px; font-size: 13px; color: var(--ink-soft); }
+.lang-nav { font-size: 14px; margin: 0 0 24px; color: var(--ink-soft); }
+.lang-nav a { margin-right: 1em; }
+.updated { font-size: 14px; color: var(--ink-soft); }
